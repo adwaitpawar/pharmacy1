@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: santoshkitta/pharmacy9
+  repository: adwaitpawar/myapp:63
   tag: latest
   pullPolicy: IfNotPresent
 
