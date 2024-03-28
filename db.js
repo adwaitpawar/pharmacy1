@@ -5,7 +5,7 @@ var mysql = require('mysql');
 module.exports = {
     getData: function(sql, param, callback){
         var connection = mysql.createConnection({
-            host: 'a31fb040e40ca40259e44f70e681e5cc-1148870372.us-east-2.elb.amazonaws.com',
+            host: 'ad44308c683a34898addc5e113f18bf6-2043754778.us-east-2.elb.amazonaws.com',
             user: 'root',
             password: 'Root@123',
             database: 'pharmacy'
