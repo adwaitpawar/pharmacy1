@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: pharmacy
-        image: santoshkitta/pharmacy9
+        image: salmanidrisi/pharmacy:63
         ports:
         - containerPort: 7000
         env:   # Setting Enviornmental Variables
