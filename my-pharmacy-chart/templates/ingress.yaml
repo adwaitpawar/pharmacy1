@@ -17,4 +17,3 @@ spec:
             name: my-pharmacy-service
             port:
               number: 80
-
