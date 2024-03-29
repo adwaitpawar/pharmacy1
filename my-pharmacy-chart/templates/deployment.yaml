@@ -1,9 +1,9 @@
+# deployment.yaml
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-pharmacy-deployment
-  annotations:
-    meta.helm.sh/release-namespace: default
 spec:
   replicas: 1
   selector:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: pharmacy
-        image: salmanidrisi/pharmacy:63
+        image: salmanidrisi/pharmacy:latest
         ports:
         - containerPort: 7000
         env:   # Setting Enviornmental Variables
@@ -28,4 +28,3 @@ spec:
           value: root
         - name: MYSQL_ROOT_PASSWORD # Setting Database password from Secret
           value: Root@123
-
