@@ -1,9 +1,9 @@
+# service.yaml
+
 apiVersion: v1
 kind: Service
 metadata:
   name: my-pharmacy-service
-  annotations:
-    meta.helm.sh/release-namespace: default
 spec:
   selector:
     app: my-pharmacy
