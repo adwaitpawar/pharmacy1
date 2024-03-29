@@ -1,7 +1,9 @@
+# values.yaml
+
 replicaCount: 1
 
 image:
-  repository: adwaitpawar/myapp:63
+  repository: salmanidrisi/pharmacy
   tag: latest
   pullPolicy: IfNotPresent
 
