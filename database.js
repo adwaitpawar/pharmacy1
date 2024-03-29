@@ -1,7 +1,7 @@
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "ad44308c683a34898addc5e113f18bf6-2043754778.us-east-2.elb.amazonaws.com",
+  host: "aba39b1d3a9d64e80ad9910872f42439-1426172331.us-east-2.elb.amazonaws.com",
   user: "root",
   password: "Root@123",
   database: 'pharmacy',
