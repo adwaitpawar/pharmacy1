@@ -37,7 +37,7 @@ app.use(express.static('./public'));
 // typeahead
 
 var connection = mysql.createConnection({
-  host: "aba39b1d3a9d64e80ad9910872f42439-1426172331.us-east-2.elb.amazonaws.com",
+  host: "ac103d8eef4c24e44b7aed8a488b9fe7-1631905639.us-west-2.elb.amazonaws.com",
     user: "root",
     password: "Root@123",
     database: 'pharmacy'
@@ -152,7 +152,7 @@ app.get('/admin', function (req, res) {
   // *****************************************************
 
   var connection = mysql.createConnection({
-    host: 'aba39b1d3a9d64e80ad9910872f42439-1426172331.us-east-2.elb.amazonaws.com',
+    host: 'ac103d8eef4c24e44b7aed8a488b9fe7-1631905639.us-west-2.elb.amazonaws.com',
     user: 'root',
     password: 'Root@123',
     database: 'pharmacy'
