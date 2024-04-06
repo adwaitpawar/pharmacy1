@@ -3,7 +3,7 @@
 replicaCount: 1
 
 image:
-  repository: salmanidrisi/pharmacy
+  repository: adwaitpawar/myapp:63
   tag: latest
   pullPolicy: IfNotPresent
 
